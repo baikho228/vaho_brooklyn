@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cutive+Mono&family=Lexend+Zetta:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cutive+Mono&family=Lexend+Zetta:wght@300&display=swap");
+@import url(https://fonts.gstatic.com/s/lexendzetta/v28/ll8uK2KYXje7CdOFnEWcU8synQbuVYjYB3BCy4jG4zlpbw.woff2);
+@import url(https://fonts.gstatic.com/s/cinzel/v23/8vIJ7ww63mVu7gt7-GT7LEc.woff2);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: rgb(179, 142, 20);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  width: 100%;
+}
+.img {
+  width: auto;
+  height: 70px;
+  margin: 10px 10px 10px 90px;
+}
+.p1 {
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  font-family: "Lexend Zetta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px 10px 10px 20px;
+}
+.p2 {
+  margin-right: 20px;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  font-family: "Lexend Zetta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+  background-image: url(vx\ main2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border: 3px solid white;
+  border-radius: 5px;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin: 0px 10px 0px 0px;
+}
+.img-visa {
+  width: 30px;
+  height: auto;
+}
+.img-mastercard {
+  width: 30px;
+  height: auto;
+}
+.img-amex {
+  width: 30px;
+  height: auto;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 105px;
+}
+
+.payment-card {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.king-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+  margin: 20px;
+  background-color: rgb(179, 142, 20);
+  border-radius: 15px;
+  width: 50%;
+  height: 80%;
+}
+.input {
+  width: 70%;
+  height: auto;
+  padding: 5px;
+  outline: none;
+  border-radius: 2px;
+  background-color: white;
+  border-color: burlywood;
+}
+.label {
+  font-family: "Cinzel";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+.h1 {
+  font-size: medium;
+  font-family: "Lexend Zetta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(51, 51, 51);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px;
+  border-radius: 10px;
+  padding-right: 90px;
+}
